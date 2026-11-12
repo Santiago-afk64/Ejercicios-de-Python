@@ -1,0 +1,7 @@
+viajes_dia = int(input("Viajes al dia")) 
+cost_pasaje = int(input("Costo del pasaje"))
+dias_semana = int(input("Dias a la semana"))
+
+Gasto_semanal = viajes_dia * cost_pasaje * dias_semana
+
+print (f"El total en el transporte es: {Gasto_semanal:.2f}")

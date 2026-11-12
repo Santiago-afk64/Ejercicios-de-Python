@@ -1,0 +1,7 @@
+n1 = float(input("Ingrese la nota 1"))
+n2 = float(input("Ingrese la nota 2"))
+n3 = float(input("Ingrese la nota 3"))
+
+Prom_Aritmetico = (n1 + n2 + n3)/3
+
+print(f"El promedio aritmetico de las notas son: {Prom_Aritmetico:.2f}")
